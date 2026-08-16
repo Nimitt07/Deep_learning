@@ -1,0 +1,8 @@
+Bivariate Regression - Linear Perceptron
+==================================================
+Learned weights: [54.04561143443186, 39.34239470474155], bias (w0): -25.235713
+
+RMSE (train): 11.617824
+RMSE (test):  11.548879
+%RMSE (train): 56.3847%
+%RMSE (test):  56.8335%

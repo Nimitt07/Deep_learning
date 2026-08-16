@@ -1,0 +1,15 @@
+NLS Dataset (Nonlinearly Separable) - Activation: logistic
+============================================================
+Confusion Matrix (rows = true, cols = predicted)
+        Pred1       Pred2       Pred3       
+True1   142         8           0           
+True2   10          130         10          
+True3   0           4           146         
+
+Overall Accuracy: 92.89%
+
+Class   Precision   Recall      F-measure   
+1       0.9342      0.9467      0.9404      
+2       0.9155      0.8667      0.8904      
+3       0.9359      0.9733      0.9542      
+Mean    0.9285      0.9289      0.9284      

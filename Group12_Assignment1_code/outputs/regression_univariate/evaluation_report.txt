@@ -1,0 +1,8 @@
+Univariate Regression - Linear Perceptron
+==================================================
+Learned weight: -0.012315, bias (w0): 2.585731
+
+RMSE (train): 1.065081
+RMSE (test):  1.060696
+%RMSE (train): 41.9785%
+%RMSE (test):  43.8842%

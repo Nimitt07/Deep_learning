@@ -1,0 +1,15 @@
+LS Dataset (Linearly Separable) - Activation: logistic
+============================================================
+Confusion Matrix (rows = true, cols = predicted)
+        Pred1       Pred2       Pred3       
+True1   150         0           0           
+True2   0           150         0           
+True3   0           0           150         
+
+Overall Accuracy: 100.00%
+
+Class   Precision   Recall      F-measure   
+1       1.0000      1.0000      1.0000      
+2       1.0000      1.0000      1.0000      
+3       1.0000      1.0000      1.0000      
+Mean    1.0000      1.0000      1.0000      
