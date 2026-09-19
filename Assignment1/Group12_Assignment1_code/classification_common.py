@@ -45,7 +45,7 @@ def train_ovo_classifiers(X_train, y_train, activation, learning_rate, epochs, s
             mask = (y_train == c1) | (y_train == c2)
             Xp = X_train[mask]
             y_orig = y_train[mask]
-            yp = np.array([target_for(activation, label == c1) for label in y_orig])
+            yp = np.array([target_for(activation, label == c1) for label in y_orig])    # encode the binary target for this pair
             p = Perceptron(n_inputs=Xp.shape[1], activation=activation,
                             learning_rate=learning_rate, seed=seed + pair_id)
             errs = p.train(Xp, yp, epochs=epochs, seed=seed + pair_id)
@@ -79,18 +79,58 @@ def predict_ovo(classifiers, X, activation):
             mask = pred == c
             votes[c][mask] += 1
             conf_sum[c][mask] += conf[mask]
+    # votes    = {1: 1, 2: 1, 3: 1}   ← all tied at 1 vote each
+    # conf_sum = {1: 0.40, 2: 0.10, 3: 0.30}
     vote_matrix = np.stack([votes[c] for c in classes], axis=1)
     conf_matrix = np.stack([conf_sum[c] for c in classes], axis=1)
+    #     classes = [1, 2, 3]        # index:     0     1     2
+
+    # vote_matrix =              #          cls1  cls2  cls3
+    #   [ [2, 0, 1],              # idx 0 (A)
+    #     [0, 2, 1],              # idx 1 (B)
+    #     [1, 1, 1] ]             # idx 2 (C)  ← 3-way tie
+
+    # conf_matrix =
+    #   [ [0.45, 0.00, 0.20],     # idx 0 (A)
+    #     [0.00, 0.45, 0.30],     # idx 1 (B)
+    #     [0.40, 0.10, 0.30] ]    # idx 2 (C)
+
+# n = 3
+final = np.empty(3, dtype=int)   # uninitialized, e.g. [garbage, garbage, garbage]
     final = np.empty(n, dtype=int)
     for idx in range(n):
         max_v = vote_matrix[idx].max()
-        candidates = np.where(vote_matrix[idx] == max_v)[0]
+        candidates = np.where(vote_matrix[idx] == max_v)[0]          
         if len(candidates) == 1:
             final[idx] = classes[candidates[0]]
         else:
             best = candidates[np.argmax(conf_matrix[idx, candidates])]
             final[idx] = classes[best]
     return final
+
+# max_v = vote_matrix[0].max()
+#       vote_matrix[0] = [2, 0, 1]  →  max_v = 2
+
+# candidates = np.where(vote_matrix[0] == max_v)[0]
+#       compares [2,0,1] == 2  →  [True, False, False]
+#       np.where(...)[0] → indices where True → candidates = [0]
+
+# len(candidates) == 1   # True → take the "if" branch
+#       final[0] = classes[candidates[0]]
+#                = classes[0]
+#                = 1
+
+
+
+# max_v = vote_matrix[2].max()
+#        vote_matrix[2] = [1, 1, 1]  →  max_v = 1
+
+# candidates = np.where(vote_matrix[2] == max_v)[0]
+#        [1,1,1] == 1 → [True, True, True] → candidates = [0, 1, 2]
+
+# len(candidates) == 1   # False (it's 3!) → go to "else" branch
+
+
 
 
 # ---------------------------------------------------------------------------

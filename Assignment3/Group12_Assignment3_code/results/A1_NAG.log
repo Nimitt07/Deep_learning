@@ -1,0 +1,17 @@
+A1 NAG params=110981 init |w| sum=5192.537677
+epoch 0 loss 1.757585
+epoch 1 loss 0.068141 diff 1.69e+00 train_acc 0.9791 val_acc 0.9763 elapsed 13s
+epoch 2 loss 0.089221 diff 2.11e-02 train_acc 0.9721 val_acc 0.9686 elapsed 20s
+epoch 3 loss 0.026216 diff 6.30e-02 train_acc 0.9920 val_acc 0.9834 elapsed 27s
+epoch 4 loss 0.018457 diff 7.76e-03 train_acc 0.9939 val_acc 0.9863 elapsed 33s
+epoch 5 loss 0.012526 diff 5.93e-03 train_acc 0.9962 val_acc 0.9866 elapsed 40s
+epoch 6 loss 0.016436 diff 3.91e-03 train_acc 0.9954 val_acc 0.9834 elapsed 47s
+epoch 7 loss 0.007108 diff 9.33e-03 train_acc 0.9979 val_acc 0.9868 elapsed 54s
+epoch 8 loss 0.005641 diff 1.47e-03 train_acc 0.9984 val_acc 0.9855 elapsed 60s
+epoch 9 loss 0.006182 diff 5.41e-04 train_acc 0.9979 val_acc 0.9850 elapsed 70s
+epoch 10 loss 0.010418 diff 4.24e-03 train_acc 0.9967 val_acc 0.9863 elapsed 81s
+epoch 11 loss 0.000671 diff 9.75e-03 train_acc 1.0000 val_acc 0.9895 elapsed 88s
+epoch 12 loss 0.000287 diff 3.84e-04 train_acc 1.0000 val_acc 0.9903 elapsed 97s
+epoch 13 loss 0.000140 diff 1.47e-04 train_acc 1.0000 val_acc 0.9897 elapsed 110s
+epoch 14 loss 0.000100 diff 3.96e-05 train_acc 1.0000 val_acc 0.9897 elapsed 118s
+DONE {"arch": "A1", "optimizer": "NAG", "layers": [784, 128, 64, 32, 5], "n_params": 110981, "batch_size": 1, "epochs": 14, "converged": true, "initial_loss": 1.7575848440719821, "final_loss": 0.0001004342440941245, "train_acc": 1.0, "val_acc": 0.9897233201581027, "init_checksum": 5192.537677087637, "seconds": 118.45032525062561}

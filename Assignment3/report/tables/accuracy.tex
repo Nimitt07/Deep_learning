@@ -1,0 +1,24 @@
+\begin{tabular}{llrrrrrrr}
+\toprule
+Arch. & Set & SGD & BGD & GDR & NAG & AdaGrad & RMSProp & Adam \\
+ & & {\scriptsize $B{=}1$} & {\scriptsize $B{=}N$} & {\scriptsize $B{=}1$} & {\scriptsize $B{=}1$} & {\scriptsize $B{=}N$} & {\scriptsize $B{=}N$} & {\scriptsize $B{=}1$} \\
+\midrule
+A1 & Train & 99.96 & 93.54 & 100.00 & 100.00 & 98.45 & 98.65 & 99.96 \\
+ & Val & 98.45 & 94.26 & \textbf{99.13} & 98.97 & 97.79 & 97.92 & 99.03 \\
+\addlinespace[2pt]
+A2 & Train & 99.99 & 94.05 & 100.00 & 100.00 & 99.41 & 98.11 & 100.00 \\
+ & Val & 98.68 & 94.47 & 99.05 & \underline{\textbf{99.26}} & 98.42 & 97.84 & 98.87 \\
+\addlinespace[2pt]
+A3 & Train & 100.00 & 93.50 & 99.99 & 99.44 & 99.32 & 97.20 & 99.97 \\
+ & Val & 98.55 & 94.60 & 98.95 & 98.39 & 98.34 & 96.63 & \textbf{99.05} \\
+\addlinespace[2pt]
+A4 & Train & 99.91 & 92.94 & 100.00 & 100.00 & 97.66 & 98.08 & 100.00 \\
+ & Val & 98.52 & 93.94 & 98.95 & 98.84 & 97.47 & 97.73 & \textbf{98.97} \\
+\addlinespace[2pt]
+A5 & Train & 99.99 & 93.77 & 100.00 & 99.99 & 97.95 & 99.18 & 100.00 \\
+ & Val & 98.63 & 93.97 & 98.92 & \textbf{99.00} & 97.60 & 98.37 & 98.66 \\
+\addlinespace[2pt]
+A6 & Train & 100.00 & 93.47 & 100.00 & 99.98 & 98.22 & 94.60 & 100.00 \\
+ & Val & 98.68 & 93.81 & \textbf{98.95} & \textbf{98.95} & 97.58 & 93.89 & 98.66 \\
+\bottomrule
+\end{tabular}

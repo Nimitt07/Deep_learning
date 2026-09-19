@@ -1,0 +1,10 @@
+A3 NAG params=123925 init |w| sum=6697.805947
+epoch 0 loss 1.767370
+epoch 1 loss 0.108762 diff 1.66e+00 train_acc 0.9672 val_acc 0.9639 elapsed 25s
+epoch 2 loss 0.077219 diff 3.15e-02 train_acc 0.9780 val_acc 0.9700 elapsed 44s
+epoch 3 loss 0.028737 diff 4.85e-02 train_acc 0.9908 val_acc 0.9847 elapsed 60s
+epoch 4 loss 0.029556 diff 8.19e-04 train_acc 0.9911 val_acc 0.9866 elapsed 78s
+epoch 5 loss 0.026684 diff 2.87e-03 train_acc 0.9929 val_acc 0.9855 elapsed 89s
+epoch 6 loss 0.019434 diff 7.25e-03 train_acc 0.9931 val_acc 0.9839 elapsed 99s
+epoch 7 loss 0.019467 diff 3.30e-05 train_acc 0.9944 val_acc 0.9839 elapsed 109s
+DONE {"arch": "A3", "optimizer": "NAG", "layers": [784, 128, 96, 64, 48, 32, 5], "n_params": 123925, "batch_size": 1, "epochs": 7, "converged": true, "initial_loss": 1.7673698147360657, "final_loss": 0.01946714803651425, "train_acc": 0.9943785682916118, "val_acc": 0.9839262187088273, "init_checksum": 6697.805946997638, "seconds": 108.61197853088379}

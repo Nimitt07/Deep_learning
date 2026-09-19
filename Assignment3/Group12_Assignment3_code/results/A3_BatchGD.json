@@ -1,0 +1,23 @@
+{
+  "arch": "A3",
+  "optimizer": "BatchGD",
+  "layers": [
+    784,
+    128,
+    96,
+    64,
+    48,
+    32,
+    5
+  ],
+  "n_params": 123925,
+  "batch_size": 11385,
+  "epochs": 2038,
+  "converged": true,
+  "initial_loss": 1.7673698147360657,
+  "final_loss": 0.2411873437097897,
+  "train_acc": 0.9350021958717611,
+  "val_acc": 0.9459815546772069,
+  "init_checksum": 6697.805946997638,
+  "seconds": 708.5420625209808
+}

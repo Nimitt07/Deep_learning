@@ -1,0 +1,25 @@
+A2 Adam params=244357 init |w| sum=11542.757052
+epoch 0 loss 1.810707
+epoch 1 loss 0.099910 diff 1.71e+00 train_acc 0.9705 val_acc 0.9679 elapsed 202s
+epoch 2 loss 0.054083 diff 4.58e-02 train_acc 0.9861 val_acc 0.9818 elapsed 357s
+epoch 3 loss 0.086983 diff 3.29e-02 train_acc 0.9619 val_acc 0.9531 elapsed 497s
+epoch 4 loss 0.043426 diff 4.36e-02 train_acc 0.9876 val_acc 0.9805 elapsed 615s
+epoch 5 loss 0.019607 diff 2.38e-02 train_acc 0.9945 val_acc 0.9881 elapsed 727s
+epoch 6 loss 0.023374 diff 3.77e-03 train_acc 0.9950 val_acc 0.9874 elapsed 806s
+epoch 7 loss 0.021287 diff 2.09e-03 train_acc 0.9950 val_acc 0.9855 elapsed 903s
+epoch 8 loss 0.034626 diff 1.33e-02 train_acc 0.9917 val_acc 0.9805 elapsed 980s
+epoch 9 loss 0.016208 diff 1.84e-02 train_acc 0.9956 val_acc 0.9881 elapsed 1056s
+epoch 10 loss 0.017271 diff 1.06e-03 train_acc 0.9959 val_acc 0.9837 elapsed 1134s
+epoch 11 loss 0.014368 diff 2.90e-03 train_acc 0.9965 val_acc 0.9855 elapsed 1170s
+epoch 12 loss 0.006278 diff 8.09e-03 train_acc 0.9983 val_acc 0.9887 elapsed 1212s
+epoch 13 loss 0.017315 diff 1.10e-02 train_acc 0.9956 val_acc 0.9845 elapsed 1249s
+epoch 14 loss 0.030069 diff 1.28e-02 train_acc 0.9963 val_acc 0.9845 elapsed 1298s
+epoch 15 loss 0.058223 diff 2.82e-02 train_acc 0.9938 val_acc 0.9868 elapsed 1368s
+epoch 16 loss 0.008435 diff 4.98e-02 train_acc 0.9972 val_acc 0.9876 elapsed 1459s
+epoch 17 loss 0.027456 diff 1.90e-02 train_acc 0.9978 val_acc 0.9884 elapsed 1541s
+epoch 18 loss 0.003616 diff 2.38e-02 train_acc 0.9996 val_acc 0.9897 elapsed 1612s
+epoch 19 loss 0.016708 diff 1.31e-02 train_acc 0.9975 val_acc 0.9855 elapsed 1679s
+epoch 20 loss 0.010656 diff 6.05e-03 train_acc 0.9986 val_acc 0.9863 elapsed 1735s
+epoch 50 loss 0.010714 diff 3.88e-03 train_acc 0.9988 val_acc 0.9866 elapsed 5504s
+epoch 56 loss 0.000000 diff 2.76e-07 train_acc 1.0000 val_acc 0.9887 elapsed 5936s
+DONE {"arch": "A2", "optimizer": "Adam", "layers": [784, 256, 128, 64, 32, 5], "n_params": 244357, "batch_size": 1, "epochs": 56, "converged": true, "initial_loss": 1.8107074112244332, "final_loss": 1.8931432923839984e-08, "train_acc": 1.0, "val_acc": 0.98866930171278, "init_checksum": 11542.757051974902, "seconds": 5936.087642669678}

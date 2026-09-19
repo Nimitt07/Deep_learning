@@ -1,0 +1,22 @@
+{
+  "arch": "A5",
+  "optimizer": "RMSProp",
+  "layers": [
+    784,
+    64,
+    64,
+    32,
+    16,
+    5
+  ],
+  "n_params": 57093,
+  "batch_size": 11385,
+  "epochs": 136,
+  "converged": true,
+  "initial_loss": 1.7648013763513948,
+  "final_loss": 0.030684676991015215,
+  "train_acc": 0.9918313570487484,
+  "val_acc": 0.9836627140974967,
+  "init_checksum": 3009.0317339717376,
+  "seconds": 43.19874548912048
+}

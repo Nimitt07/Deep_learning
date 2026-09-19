@@ -1,0 +1,31 @@
+A2 AdaGrad params=244357 init |w| sum=11542.757052
+epoch 0 loss 1.810707
+epoch 1 loss 1.516099 diff 2.95e-01 train_acc 0.3456 val_acc 0.3573 elapsed 12s
+epoch 2 loss 1.370076 diff 1.46e-01 train_acc 0.4527 val_acc 0.4603 elapsed 17s
+epoch 3 loss 1.243186 diff 1.27e-01 train_acc 0.5835 val_acc 0.5831 elapsed 22s
+epoch 4 loss 1.132277 diff 1.11e-01 train_acc 0.6175 val_acc 0.6235 elapsed 27s
+epoch 5 loss 1.038619 diff 9.37e-02 train_acc 0.6902 val_acc 0.6917 elapsed 31s
+epoch 6 loss 0.959397 diff 7.92e-02 train_acc 0.6834 val_acc 0.6964 elapsed 36s
+epoch 7 loss 0.892835 diff 6.66e-02 train_acc 0.7203 val_acc 0.7204 elapsed 41s
+epoch 8 loss 0.830306 diff 6.25e-02 train_acc 0.7203 val_acc 0.7273 elapsed 45s
+epoch 9 loss 0.775246 diff 5.51e-02 train_acc 0.7413 val_acc 0.7420 elapsed 50s
+epoch 10 loss 0.722705 diff 5.25e-02 train_acc 0.7651 val_acc 0.7705 elapsed 55s
+epoch 11 loss 0.676928 diff 4.58e-02 train_acc 0.7799 val_acc 0.7739 elapsed 61s
+epoch 12 loss 0.635195 diff 4.17e-02 train_acc 0.8309 val_acc 0.8353 elapsed 66s
+epoch 13 loss 0.597579 diff 3.76e-02 train_acc 0.8461 val_acc 0.8485 elapsed 71s
+epoch 14 loss 0.562871 diff 3.47e-02 train_acc 0.8884 val_acc 0.8864 elapsed 76s
+epoch 15 loss 0.531009 diff 3.19e-02 train_acc 0.8992 val_acc 0.8946 elapsed 81s
+epoch 16 loss 0.501342 diff 2.97e-02 train_acc 0.9162 val_acc 0.9152 elapsed 85s
+epoch 17 loss 0.473701 diff 2.76e-02 train_acc 0.9241 val_acc 0.9188 elapsed 91s
+epoch 18 loss 0.448057 diff 2.56e-02 train_acc 0.9313 val_acc 0.9304 elapsed 96s
+epoch 19 loss 0.424326 diff 2.37e-02 train_acc 0.9343 val_acc 0.9333 elapsed 101s
+epoch 20 loss 0.402509 diff 2.18e-02 train_acc 0.9379 val_acc 0.9399 elapsed 106s
+epoch 50 loss 0.168174 diff 2.80e-03 train_acc 0.9658 val_acc 0.9636 elapsed 250s
+epoch 100 loss 0.100493 diff 7.22e-04 train_acc 0.9752 val_acc 0.9736 elapsed 432s
+epoch 150 loss 0.074791 diff 3.84e-04 train_acc 0.9820 val_acc 0.9789 elapsed 610s
+epoch 200 loss 0.059147 diff 2.57e-04 train_acc 0.9852 val_acc 0.9800 elapsed 749s
+epoch 250 loss 0.048073 diff 1.96e-04 train_acc 0.9881 val_acc 0.9810 elapsed 842s
+epoch 300 loss 0.039644 diff 1.45e-04 train_acc 0.9912 val_acc 0.9834 elapsed 953s
+epoch 350 loss 0.033149 diff 1.14e-04 train_acc 0.9931 val_acc 0.9839 elapsed 1058s
+epoch 378 loss 0.030163 diff 9.94e-05 train_acc 0.9941 val_acc 0.9842 elapsed 1117s
+DONE {"arch": "A2", "optimizer": "AdaGrad", "layers": [784, 256, 128, 64, 32, 5], "n_params": 244357, "batch_size": 11385, "epochs": 378, "converged": true, "initial_loss": 1.8107074112244332, "final_loss": 0.030163385454406003, "train_acc": 0.994115063680281, "val_acc": 0.9841897233201581, "init_checksum": 11542.757051974902, "seconds": 1116.5301744937897}

@@ -1,0 +1,49 @@
+NLS dataset (nonlinearly separable, 3 classes) - BEST architecture 2-64-16-3 - TRAINING data
+============================================================================================
+Confusion Matrix (rows = true class, cols = predicted class)
+        Pred1       Pred2       Pred3       
+True1   300         0           0           
+True2   0           300         0           
+True3   0           0           300         
+
+Classification accuracy : 100.00%
+
+Class   Precision   Recall      F-measure   
+1       1.0000      1.0000      1.0000      
+2       1.0000      1.0000      1.0000      
+3       1.0000      1.0000      1.0000      
+Mean    1.0000      1.0000      1.0000      
+
+NLS dataset (nonlinearly separable, 3 classes) - BEST architecture 2-64-16-3 - VALIDATION data
+==============================================================================================
+Confusion Matrix (rows = true class, cols = predicted class)
+        Pred1       Pred2       Pred3       
+True1   100         0           0           
+True2   0           100         0           
+True3   0           0           100         
+
+Classification accuracy : 100.00%
+
+Class   Precision   Recall      F-measure   
+1       1.0000      1.0000      1.0000      
+2       1.0000      1.0000      1.0000      
+3       1.0000      1.0000      1.0000      
+Mean    1.0000      1.0000      1.0000      
+
+NLS dataset (nonlinearly separable, 3 classes) - BEST architecture 2-64-16-3 - TEST data
+========================================================================================
+Confusion Matrix (rows = true class, cols = predicted class)
+        Pred1       Pred2       Pred3       
+True1   100         0           0           
+True2   0           100         0           
+True3   0           0           100         
+
+Classification accuracy : 100.00%
+
+Class   Precision   Recall      F-measure   
+1       1.0000      1.0000      1.0000      
+2       1.0000      1.0000      1.0000      
+3       1.0000      1.0000      1.0000      
+Mean    1.0000      1.0000      1.0000      
+
+Epochs run: 300   Learning rate: 0.05   Hidden activation: logistic   Output activation: logistic

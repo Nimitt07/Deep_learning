@@ -1,0 +1,10 @@
+Bivariate regression dataset (2-D input) - FCNN (Assignment-2) vs single neuron (Assignment-1)
+Both models use the same 60/20/20 split, the same standardisation and the same
+from-scratch RMSE / %RMSE code, so the numbers are directly comparable.
+
+Model                       RMSE(train)   RMSE(val)     RMSE(test)    %RMSE(train)  %RMSE(val)    %RMSE(test)   
+----------------------------------------------------------------------------------------------------------------
+Single linear neuron        11.5134       11.7742       11.5259       56.2971       56.4809       56.5077       
+FCNN 2-64-32-1              0.1587        0.1416        0.1483        0.7760        0.6794        0.7272        
+
+Reduction in test RMSE achieved by the FCNN: 98.71%

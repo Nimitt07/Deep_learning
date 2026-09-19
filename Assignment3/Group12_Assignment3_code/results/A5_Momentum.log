@@ -1,0 +1,21 @@
+A5 Momentum params=57093 init |w| sum=3009.031734
+epoch 0 loss 1.764801
+epoch 1 loss 0.081452 diff 1.68e+00 train_acc 0.9748 val_acc 0.9773 elapsed 18s
+epoch 2 loss 0.088475 diff 7.02e-03 train_acc 0.9751 val_acc 0.9708 elapsed 28s
+epoch 3 loss 0.037356 diff 5.11e-02 train_acc 0.9893 val_acc 0.9816 elapsed 33s
+epoch 4 loss 0.027677 diff 9.68e-03 train_acc 0.9916 val_acc 0.9855 elapsed 37s
+epoch 5 loss 0.017833 diff 9.84e-03 train_acc 0.9946 val_acc 0.9868 elapsed 42s
+epoch 6 loss 0.064790 diff 4.70e-02 train_acc 0.9845 val_acc 0.9810 elapsed 47s
+epoch 7 loss 0.029634 diff 3.52e-02 train_acc 0.9905 val_acc 0.9797 elapsed 51s
+epoch 8 loss 0.018754 diff 1.09e-02 train_acc 0.9949 val_acc 0.9855 elapsed 55s
+epoch 9 loss 0.010714 diff 8.04e-03 train_acc 0.9964 val_acc 0.9863 elapsed 60s
+epoch 10 loss 0.019292 diff 8.58e-03 train_acc 0.9936 val_acc 0.9837 elapsed 64s
+epoch 11 loss 0.026656 diff 7.36e-03 train_acc 0.9923 val_acc 0.9800 elapsed 68s
+epoch 12 loss 0.003201 diff 2.35e-02 train_acc 0.9988 val_acc 0.9868 elapsed 73s
+epoch 13 loss 0.008827 diff 5.63e-03 train_acc 0.9972 val_acc 0.9874 elapsed 77s
+epoch 14 loss 0.002772 diff 6.06e-03 train_acc 0.9991 val_acc 0.9895 elapsed 82s
+epoch 15 loss 0.000766 diff 2.01e-03 train_acc 0.9998 val_acc 0.9892 elapsed 86s
+epoch 16 loss 0.000425 diff 3.40e-04 train_acc 0.9999 val_acc 0.9897 elapsed 92s
+epoch 17 loss 0.000247 diff 1.78e-04 train_acc 1.0000 val_acc 0.9892 elapsed 97s
+epoch 18 loss 0.000182 diff 6.52e-05 train_acc 1.0000 val_acc 0.9892 elapsed 102s
+DONE {"arch": "A5", "optimizer": "Momentum", "layers": [784, 64, 64, 32, 16, 5], "n_params": 57093, "batch_size": 1, "epochs": 18, "converged": true, "initial_loss": 1.7648013763513948, "final_loss": 0.00018180683625631562, "train_acc": 1.0, "val_acc": 0.9891963109354414, "init_checksum": 3009.0317339717376, "seconds": 102.46862936019897}

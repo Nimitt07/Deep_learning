@@ -1,0 +1,18 @@
+A2 NAG params=244357 init |w| sum=11542.757052
+epoch 0 loss 1.810707
+epoch 1 loss 0.072090 diff 1.74e+00 train_acc 0.9787 val_acc 0.9787 elapsed 37s
+epoch 2 loss 0.057139 diff 1.50e-02 train_acc 0.9837 val_acc 0.9750 elapsed 75s
+epoch 3 loss 0.034593 diff 2.25e-02 train_acc 0.9895 val_acc 0.9831 elapsed 113s
+epoch 4 loss 0.020184 diff 1.44e-02 train_acc 0.9937 val_acc 0.9868 elapsed 142s
+epoch 5 loss 0.017371 diff 2.81e-03 train_acc 0.9940 val_acc 0.9863 elapsed 163s
+epoch 6 loss 0.011196 diff 6.17e-03 train_acc 0.9962 val_acc 0.9868 elapsed 184s
+epoch 7 loss 0.008987 diff 2.21e-03 train_acc 0.9982 val_acc 0.9887 elapsed 206s
+epoch 8 loss 0.045666 diff 3.67e-02 train_acc 0.9894 val_acc 0.9800 elapsed 228s
+epoch 9 loss 0.006831 diff 3.88e-02 train_acc 0.9984 val_acc 0.9850 elapsed 251s
+epoch 10 loss 0.011383 diff 4.55e-03 train_acc 0.9974 val_acc 0.9868 elapsed 273s
+epoch 11 loss 0.008321 diff 3.06e-03 train_acc 0.9977 val_acc 0.9860 elapsed 291s
+epoch 12 loss 0.000772 diff 7.55e-03 train_acc 0.9996 val_acc 0.9916 elapsed 310s
+epoch 13 loss 0.000442 diff 3.30e-04 train_acc 0.9998 val_acc 0.9913 elapsed 330s
+epoch 14 loss 0.000182 diff 2.59e-04 train_acc 0.9999 val_acc 0.9918 elapsed 347s
+epoch 15 loss 0.000112 diff 7.05e-05 train_acc 1.0000 val_acc 0.9926 elapsed 362s
+DONE {"arch": "A2", "optimizer": "NAG", "layers": [784, 256, 128, 64, 32, 5], "n_params": 244357, "batch_size": 1, "epochs": 15, "converged": true, "initial_loss": 1.8107074112244332, "final_loss": 0.0001118711168398336, "train_acc": 1.0, "val_acc": 0.9926218708827405, "init_checksum": 11542.757051974902, "seconds": 361.60321497917175}

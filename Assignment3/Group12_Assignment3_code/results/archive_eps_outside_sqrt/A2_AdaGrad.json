@@ -1,0 +1,22 @@
+{
+  "arch": "A2",
+  "optimizer": "AdaGrad",
+  "layers": [
+    784,
+    256,
+    128,
+    64,
+    32,
+    5
+  ],
+  "n_params": 244357,
+  "batch_size": 11385,
+  "epochs": 380,
+  "converged": true,
+  "initial_loss": 1.8107074112244332,
+  "final_loss": 0.02935098808203617,
+  "train_acc": 0.994115063680281,
+  "val_acc": 0.9839262187088273,
+  "init_checksum": 11542.757051974902,
+  "seconds": 320.85118198394775
+}

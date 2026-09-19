@@ -1,0 +1,20 @@
+Bivariate regression dataset (2-D input) - FCNN model selection
+RMSE and %RMSE on training and validation data for every architecture that was tried.
+(hidden activation: logistic, output activation: linear, loss: squared error, learning: SGD backpropagation)
+Selection criterion: lowest validation RMSE.
+
+Hidden nodes    Arch            #HidLayers  RMSE(train)   %RMSE(train)   RMSE(val)     %RMSE(val)    Epochs  Params  
+---------------------------------------------------------------------------------------------------------------------
+16              2-16-1          1           0.2292        1.1209         0.1924        0.9230        200     65      
+32              2-32-1          1           0.3452        1.6879         0.3131        1.5021        200     129     
+64              2-64-1          1           0.3765        1.8411         0.3361        1.6125        200     257     
+32-16           2-32-16-1       2           0.1659        0.8111         0.1432        0.6870        200     641     
+64-32           2-64-32-1       2           0.1587        0.7760         0.1416        0.6794        200     2305      <-- best
+
+=====================================================================================================================
+BEST ARCHITECTURE: 2-64-32-1  (hidden nodes: 64-32, 2 hidden layer(s), eta = 0.01, epochs run = 200)
+=====================================================================================================================
+Split       RMSE            %RMSE           
+train       0.1587          0.7760          
+val         0.1416          0.6794          
+test        0.1483          0.7272          

@@ -1,0 +1,23 @@
+{
+  "arch": "A3",
+  "optimizer": "Momentum",
+  "layers": [
+    784,
+    128,
+    96,
+    64,
+    48,
+    32,
+    5
+  ],
+  "n_params": 123925,
+  "batch_size": 1,
+  "epochs": 21,
+  "converged": true,
+  "initial_loss": 1.7673698147360657,
+  "final_loss": 0.00019983175632901215,
+  "train_acc": 0.9999121651295564,
+  "val_acc": 0.9894598155467721,
+  "init_checksum": 6697.805946997638,
+  "seconds": 251.69385957717896
+}

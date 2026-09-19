@@ -1,0 +1,21 @@
+{
+  "arch": "A1",
+  "optimizer": "Adam",
+  "layers": [
+    784,
+    128,
+    64,
+    32,
+    5
+  ],
+  "n_params": 110981,
+  "batch_size": 1,
+  "epochs": 38,
+  "converged": true,
+  "initial_loss": 1.7575848440719821,
+  "final_loss": 0.03399803420887815,
+  "train_acc": 0.9969257795344751,
+  "val_acc": 0.9852437417654809,
+  "init_checksum": 5192.537677087637,
+  "seconds": 494.5648899078369
+}

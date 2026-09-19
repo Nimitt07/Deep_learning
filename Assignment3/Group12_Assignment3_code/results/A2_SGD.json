@@ -1,0 +1,22 @@
+{
+  "arch": "A2",
+  "optimizer": "SGD",
+  "layers": [
+    784,
+    256,
+    128,
+    64,
+    32,
+    5
+  ],
+  "n_params": 244357,
+  "batch_size": 1,
+  "epochs": 17,
+  "converged": true,
+  "initial_loss": 1.8107074112244332,
+  "final_loss": 0.0014080235681248022,
+  "train_acc": 0.9999121651295564,
+  "val_acc": 0.9868247694334651,
+  "init_checksum": 11542.757051974902,
+  "seconds": 312.3064155578613
+}

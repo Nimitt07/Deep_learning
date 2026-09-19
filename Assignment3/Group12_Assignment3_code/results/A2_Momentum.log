@@ -1,0 +1,24 @@
+A2 Momentum params=244357 init |w| sum=11542.757052
+epoch 0 loss 1.810707
+epoch 1 loss 0.104195 diff 1.71e+00 train_acc 0.9704 val_acc 0.9692 elapsed 33s
+epoch 2 loss 0.063471 diff 4.07e-02 train_acc 0.9802 val_acc 0.9752 elapsed 67s
+epoch 3 loss 0.037364 diff 2.61e-02 train_acc 0.9876 val_acc 0.9797 elapsed 103s
+epoch 4 loss 0.021976 diff 1.54e-02 train_acc 0.9940 val_acc 0.9831 elapsed 132s
+epoch 5 loss 0.014398 diff 7.58e-03 train_acc 0.9960 val_acc 0.9868 elapsed 151s
+epoch 6 loss 0.008361 diff 6.04e-03 train_acc 0.9971 val_acc 0.9897 elapsed 169s
+epoch 7 loss 0.007718 diff 6.43e-04 train_acc 0.9982 val_acc 0.9863 elapsed 186s
+epoch 8 loss 0.012696 diff 4.98e-03 train_acc 0.9946 val_acc 0.9826 elapsed 204s
+epoch 9 loss 0.002587 diff 1.01e-02 train_acc 0.9994 val_acc 0.9876 elapsed 223s
+epoch 10 loss 0.005708 diff 3.12e-03 train_acc 0.9987 val_acc 0.9860 elapsed 242s
+epoch 11 loss 0.001744 diff 3.96e-03 train_acc 0.9994 val_acc 0.9881 elapsed 261s
+epoch 12 loss 0.010144 diff 8.40e-03 train_acc 0.9962 val_acc 0.9855 elapsed 279s
+epoch 13 loss 0.007043 diff 3.10e-03 train_acc 0.9975 val_acc 0.9881 elapsed 295s
+epoch 14 loss 0.004683 diff 2.36e-03 train_acc 0.9986 val_acc 0.9881 elapsed 311s
+epoch 15 loss 0.002899 diff 1.78e-03 train_acc 0.9991 val_acc 0.9905 elapsed 327s
+epoch 16 loss 0.002389 diff 5.11e-04 train_acc 0.9995 val_acc 0.9895 elapsed 342s
+epoch 17 loss 0.001481 diff 9.07e-04 train_acc 0.9996 val_acc 0.9889 elapsed 356s
+epoch 18 loss 0.001001 diff 4.80e-04 train_acc 0.9998 val_acc 0.9908 elapsed 368s
+epoch 19 loss 0.000206 diff 7.96e-04 train_acc 1.0000 val_acc 0.9900 elapsed 379s
+epoch 20 loss 0.000086 diff 1.19e-04 train_acc 1.0000 val_acc 0.9905 elapsed 391s
+epoch 21 loss 0.000062 diff 2.41e-05 train_acc 1.0000 val_acc 0.9905 elapsed 402s
+DONE {"arch": "A2", "optimizer": "Momentum", "layers": [784, 256, 128, 64, 32, 5], "n_params": 244357, "batch_size": 1, "epochs": 21, "converged": true, "initial_loss": 1.8107074112244332, "final_loss": 6.23070598908364e-05, "train_acc": 1.0, "val_acc": 0.9905138339920949, "init_checksum": 11542.757051974902, "seconds": 401.90988397598267}

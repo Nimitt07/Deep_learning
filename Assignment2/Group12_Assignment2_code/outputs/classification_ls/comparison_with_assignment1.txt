@@ -1,0 +1,42 @@
+LS dataset (linearly separable, 3 classes) - FCNN (Assignment-2) vs single neuron (Assignment-1)
+Both models are trained and evaluated on the same 60/20/20 split with the same
+from-scratch metric code, so the numbers are directly comparable.
+
+Model                                     ValAcc%    TestAcc%   TestMeanP   TestMeanR   TestMeanF  
+---------------------------------------------------------------------------------------------------
+Single neuron (one-against-one)           100.00     100.00     1.0000      1.0000      1.0000     
+FCNN 2-16-3                               100.00     100.00     1.0000      1.0000      1.0000     
+
+Absolute gain of the FCNN on test accuracy: +0.00 percentage points
+
+LS dataset (linearly separable, 3 classes) - Assignment-1 single neuron (one-against-one) - VALIDATION data
+===========================================================================================================
+Confusion Matrix (rows = true class, cols = predicted class)
+        Pred1       Pred2       Pred3       
+True1   100         0           0           
+True2   0           100         0           
+True3   0           0           100         
+
+Classification accuracy : 100.00%
+
+Class   Precision   Recall      F-measure   
+1       1.0000      1.0000      1.0000      
+2       1.0000      1.0000      1.0000      
+3       1.0000      1.0000      1.0000      
+Mean    1.0000      1.0000      1.0000      
+
+LS dataset (linearly separable, 3 classes) - Assignment-1 single neuron (one-against-one) - TEST data
+=====================================================================================================
+Confusion Matrix (rows = true class, cols = predicted class)
+        Pred1       Pred2       Pred3       
+True1   100         0           0           
+True2   0           100         0           
+True3   0           0           100         
+
+Classification accuracy : 100.00%
+
+Class   Precision   Recall      F-measure   
+1       1.0000      1.0000      1.0000      
+2       1.0000      1.0000      1.0000      
+3       1.0000      1.0000      1.0000      
+Mean    1.0000      1.0000      1.0000      

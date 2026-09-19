@@ -1,0 +1,19 @@
+CS601T Deep Learning - Programming Assignment II - Group 12
+Combined summary of all four experiments
+================================================================================================
+
+CLASSIFICATION (accuracy and mean precision / recall / F-measure on the TEST set,
+for the architecture selected on the validation set)
+------------------------------------------------------------------------------------------------
+Dataset                   Best FCNN     FCNN acc%   1-neuron acc%  FCNN meanF  1-neuron meanF 
+LS dataset (linearly sep  2-16-3        100.00      100.00         1.0000      1.0000         
+NLS dataset (nonlinearly  2-64-16-3     100.00      92.67          1.0000      0.9264         
+
+REGRESSION (RMSE and %RMSE on the TEST set, for the architecture selected on the
+validation set)
+------------------------------------------------------------------------------------------------
+Dataset                   Best FCNN     FCNN RMSE    1-neuron RMSE   FCNN %RMSE   1-neuron %RMSE 
+Univariate regression da  1-8-1         0.0590       1.0280          2.3726       41.3095        
+Bivariate regression dat  2-64-32-1     0.1483       11.5259         0.7272       56.5077        
+
+Total run time: 1089.4 s

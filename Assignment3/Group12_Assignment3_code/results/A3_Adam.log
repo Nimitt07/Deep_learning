@@ -1,0 +1,26 @@
+A3 Adam params=123925 init |w| sum=6697.805947
+epoch 0 loss 1.767370
+epoch 1 loss 0.152792 diff 1.61e+00 train_acc 0.9700 val_acc 0.9692 elapsed 112s
+epoch 2 loss 0.076110 diff 7.67e-02 train_acc 0.9818 val_acc 0.9773 elapsed 206s
+epoch 3 loss 0.116761 diff 4.07e-02 train_acc 0.9744 val_acc 0.9744 elapsed 278s
+epoch 4 loss 0.062953 diff 5.38e-02 train_acc 0.9866 val_acc 0.9792 elapsed 366s
+epoch 5 loss 0.037835 diff 2.51e-02 train_acc 0.9901 val_acc 0.9821 elapsed 426s
+epoch 6 loss 0.021285 diff 1.66e-02 train_acc 0.9942 val_acc 0.9879 elapsed 505s
+epoch 7 loss 0.040634 diff 1.93e-02 train_acc 0.9911 val_acc 0.9850 elapsed 567s
+epoch 8 loss 0.069615 diff 2.90e-02 train_acc 0.9882 val_acc 0.9789 elapsed 625s
+epoch 9 loss 1.292368 diff 1.22e+00 train_acc 0.8443 val_acc 0.8345 elapsed 683s
+epoch 10 loss 0.032339 diff 1.26e+00 train_acc 0.9940 val_acc 0.9839 elapsed 732s
+epoch 11 loss 0.057705 diff 2.54e-02 train_acc 0.9791 val_acc 0.9718 elapsed 786s
+epoch 12 loss 0.006498 diff 5.12e-02 train_acc 0.9980 val_acc 0.9881 elapsed 819s
+epoch 13 loss 0.014692 diff 8.19e-03 train_acc 0.9961 val_acc 0.9852 elapsed 873s
+epoch 14 loss 0.024557 diff 9.86e-03 train_acc 0.9927 val_acc 0.9871 elapsed 913s
+epoch 15 loss 0.043974 diff 1.94e-02 train_acc 0.9952 val_acc 0.9863 elapsed 952s
+epoch 16 loss 0.007918 diff 3.61e-02 train_acc 0.9981 val_acc 0.9889 elapsed 992s
+epoch 17 loss 0.033846 diff 2.59e-02 train_acc 0.9962 val_acc 0.9876 elapsed 1031s
+epoch 18 loss 0.006749 diff 2.71e-02 train_acc 0.9989 val_acc 0.9897 elapsed 1070s
+epoch 19 loss 0.017045 diff 1.03e-02 train_acc 0.9960 val_acc 0.9863 elapsed 1109s
+epoch 20 loss 0.026755 diff 9.71e-03 train_acc 0.9939 val_acc 0.9863 elapsed 1139s
+epoch 50 loss 0.002407 diff 3.47e-02 train_acc 0.9994 val_acc 0.9905 elapsed 1899s
+epoch 100 loss 0.006858 diff 2.07e-02 train_acc 0.9993 val_acc 0.9879 elapsed 5565s
+epoch 134 loss 0.002474 diff 2.11e-05 train_acc 0.9997 val_acc 0.9905 elapsed 9117s
+DONE {"arch": "A3", "optimizer": "Adam", "layers": [784, 128, 96, 64, 48, 32, 5], "n_params": 123925, "batch_size": 1, "epochs": 134, "converged": true, "initial_loss": 1.7673698147360657, "final_loss": 0.0024736241179438867, "train_acc": 0.9997364953886693, "val_acc": 0.9905138339920949, "init_checksum": 6697.805946997638, "seconds": 9117.445891857147}

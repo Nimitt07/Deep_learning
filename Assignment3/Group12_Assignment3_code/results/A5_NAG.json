@@ -1,0 +1,22 @@
+{
+  "arch": "A5",
+  "optimizer": "NAG",
+  "layers": [
+    784,
+    64,
+    64,
+    32,
+    16,
+    5
+  ],
+  "n_params": 57093,
+  "batch_size": 1,
+  "epochs": 19,
+  "converged": true,
+  "initial_loss": 1.7648013763513948,
+  "final_loss": 0.0002184111986769661,
+  "train_acc": 0.9999121651295564,
+  "val_acc": 0.9899868247694334,
+  "init_checksum": 3009.0317339717376,
+  "seconds": 102.71194458007812
+}

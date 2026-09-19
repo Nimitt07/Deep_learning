@@ -1,0 +1,19 @@
+Univariate regression dataset (1-D input) - FCNN model selection
+RMSE and %RMSE on training and validation data for every architecture that was tried.
+(hidden activation: logistic, output activation: linear, loss: squared error, learning: SGD backpropagation)
+Selection criterion: lowest validation RMSE.
+
+Hidden nodes    Arch            #HidLayers  RMSE(train)   %RMSE(train)   RMSE(val)     %RMSE(val)    Epochs  Params  
+---------------------------------------------------------------------------------------------------------------------
+8               1-8-1           1           0.0590        2.3136         0.0625        2.6461        250     25        <-- best
+16              1-16-1          1           0.0635        2.4893         0.0663        2.8060        300     49      
+32              1-32-1          1           0.0667        2.6132         0.0684        2.8971        300     97      
+64              1-64-1          1           0.0685        2.6842         0.0703        2.9783        300     193     
+
+=====================================================================================================================
+BEST ARCHITECTURE: 1-8-1  (hidden nodes: 8, 1 hidden layer(s), eta = 0.01, epochs run = 250)
+=====================================================================================================================
+Split       RMSE            %RMSE           
+train       0.0590          2.3136          
+val         0.0625          2.6461          
+test        0.0590          2.3726          

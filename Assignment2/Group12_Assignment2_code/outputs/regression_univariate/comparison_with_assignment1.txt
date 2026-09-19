@@ -1,0 +1,10 @@
+Univariate regression dataset (1-D input) - FCNN (Assignment-2) vs single neuron (Assignment-1)
+Both models use the same 60/20/20 split, the same standardisation and the same
+from-scratch RMSE / %RMSE code, so the numbers are directly comparable.
+
+Model                       RMSE(train)   RMSE(val)     RMSE(test)    %RMSE(train)  %RMSE(val)    %RMSE(test)   
+----------------------------------------------------------------------------------------------------------------
+Single linear neuron        1.0512        1.1349        1.0280        41.1920       48.0615       41.3095       
+FCNN 1-8-1                  0.0590        0.0625        0.0590        2.3136        2.6461        2.3726        
+
+Reduction in test RMSE achieved by the FCNN: 94.26%

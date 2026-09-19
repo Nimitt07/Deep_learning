@@ -1,0 +1,26 @@
+A5 RMSProp params=57093 init |w| sum=3009.031734
+epoch 0 loss 1.764801
+epoch 1 loss 1.558642 diff 2.06e-01 train_acc 0.3074 val_acc 0.3162 elapsed 1s
+epoch 2 loss 1.290128 diff 2.69e-01 train_acc 0.4672 val_acc 0.4648 elapsed 1s
+epoch 3 loss 1.797872 diff 5.08e-01 train_acc 0.2239 val_acc 0.2266 elapsed 2s
+epoch 4 loss 1.521708 diff 2.76e-01 train_acc 0.3890 val_acc 0.3926 elapsed 2s
+epoch 5 loss 1.116633 diff 4.05e-01 train_acc 0.6537 val_acc 0.6501 elapsed 2s
+epoch 6 loss 0.870037 diff 2.47e-01 train_acc 0.7461 val_acc 0.7449 elapsed 2s
+epoch 7 loss 0.730857 diff 1.39e-01 train_acc 0.8360 val_acc 0.8377 elapsed 3s
+epoch 8 loss 0.605867 diff 1.25e-01 train_acc 0.8916 val_acc 0.8972 elapsed 3s
+epoch 9 loss 0.483777 diff 1.22e-01 train_acc 0.9098 val_acc 0.9181 elapsed 3s
+epoch 10 loss 0.387290 diff 9.65e-02 train_acc 0.9189 val_acc 0.9299 elapsed 3s
+epoch 11 loss 0.329026 diff 5.83e-02 train_acc 0.9260 val_acc 0.9291 elapsed 4s
+epoch 12 loss 0.304239 diff 2.48e-02 train_acc 0.9197 val_acc 0.9286 elapsed 4s
+epoch 13 loss 0.302779 diff 1.46e-03 train_acc 0.9251 val_acc 0.9241 elapsed 4s
+epoch 14 loss 0.347455 diff 4.47e-02 train_acc 0.8884 val_acc 0.8925 elapsed 4s
+epoch 15 loss 0.274096 diff 7.34e-02 train_acc 0.9325 val_acc 0.9299 elapsed 5s
+epoch 16 loss 0.245962 diff 2.81e-02 train_acc 0.9289 val_acc 0.9368 elapsed 5s
+epoch 17 loss 0.212373 diff 3.36e-02 train_acc 0.9452 val_acc 0.9468 elapsed 5s
+epoch 18 loss 0.197677 diff 1.47e-02 train_acc 0.9474 val_acc 0.9513 elapsed 6s
+epoch 19 loss 0.187688 diff 9.99e-03 train_acc 0.9504 val_acc 0.9510 elapsed 6s
+epoch 20 loss 0.179796 diff 7.89e-03 train_acc 0.9522 val_acc 0.9539 elapsed 6s
+epoch 50 loss 0.093273 diff 6.14e-03 train_acc 0.9733 val_acc 0.9700 elapsed 15s
+epoch 100 loss 0.047012 diff 6.37e-04 train_acc 0.9865 val_acc 0.9823 elapsed 31s
+epoch 136 loss 0.030685 diff 8.23e-05 train_acc 0.9918 val_acc 0.9837 elapsed 43s
+DONE {"arch": "A5", "optimizer": "RMSProp", "layers": [784, 64, 64, 32, 16, 5], "n_params": 57093, "batch_size": 11385, "epochs": 136, "converged": true, "initial_loss": 1.7648013763513948, "final_loss": 0.030684676991015215, "train_acc": 0.9918313570487484, "val_acc": 0.9836627140974967, "init_checksum": 3009.0317339717376, "seconds": 43.19874548912048}

@@ -20,7 +20,7 @@ THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 RAW_DIR = os.path.join(THIS_DIR, "..", "Group12")
 PROCESSED_DIR = os.path.join(THIS_DIR, "processed_data")
 
-SEED = 42
+SEED = 42 #doubt.. 
 TRAIN_FRACTION = 0.7
 
 

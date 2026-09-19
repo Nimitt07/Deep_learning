@@ -1,0 +1,85 @@
+NLS dataset (nonlinearly separable, 3 classes) - FCNN model selection
+Validation-set results for every architecture that was tried.
+(hidden activation: logistic, output activation: logistic, loss: squared error, learning: SGD backpropagation)
+Selection criterion: highest validation classification accuracy; if several
+architectures tie, the one with the smallest validation average error E_av is kept.
+
+Architecture 2-16-8-3  (hidden nodes: 16-8)  --  VALIDATION data
+================================================================
+Confusion Matrix (rows = true class, cols = predicted class)
+        Pred1       Pred2       Pred3       
+True1   100         0           0           
+True2   0           100         0           
+True3   0           0           100         
+
+Classification accuracy : 100.00%
+
+Class   Precision   Recall      F-measure   
+1       1.0000      1.0000      1.0000      
+2       1.0000      1.0000      1.0000      
+3       1.0000      1.0000      1.0000      
+Mean    1.0000      1.0000      1.0000      
+Training accuracy: 100.00%   |   epochs run: 300   |   parameters: 211
+
+Architecture 2-32-16-3  (hidden nodes: 32-16)  --  VALIDATION data
+==================================================================
+Confusion Matrix (rows = true class, cols = predicted class)
+        Pred1       Pred2       Pred3       
+True1   100         0           0           
+True2   0           100         0           
+True3   0           0           100         
+
+Classification accuracy : 100.00%
+
+Class   Precision   Recall      F-measure   
+1       1.0000      1.0000      1.0000      
+2       1.0000      1.0000      1.0000      
+3       1.0000      1.0000      1.0000      
+Mean    1.0000      1.0000      1.0000      
+Training accuracy: 100.00%   |   epochs run: 300   |   parameters: 675
+
+Architecture 2-64-16-3  (hidden nodes: 64-16)  --  VALIDATION data
+==================================================================
+Confusion Matrix (rows = true class, cols = predicted class)
+        Pred1       Pred2       Pred3       
+True1   100         0           0           
+True2   0           100         0           
+True3   0           0           100         
+
+Classification accuracy : 100.00%
+
+Class   Precision   Recall      F-measure   
+1       1.0000      1.0000      1.0000      
+2       1.0000      1.0000      1.0000      
+3       1.0000      1.0000      1.0000      
+Mean    1.0000      1.0000      1.0000      
+Training accuracy: 100.00%   |   epochs run: 300   |   parameters: 1283
+
+Architecture 2-64-32-3  (hidden nodes: 64-32)  --  VALIDATION data
+==================================================================
+Confusion Matrix (rows = true class, cols = predicted class)
+        Pred1       Pred2       Pred3       
+True1   100         0           0           
+True2   0           100         0           
+True3   0           0           100         
+
+Classification accuracy : 100.00%
+
+Class   Precision   Recall      F-measure   
+1       1.0000      1.0000      1.0000      
+2       1.0000      1.0000      1.0000      
+3       1.0000      1.0000      1.0000      
+Mean    1.0000      1.0000      1.0000      
+Training accuracy: 100.00%   |   epochs run: 300   |   parameters: 2371
+
+==============================================================================
+BEST ARCHITECTURE (highest validation accuracy): 2-64-16-3
+==============================================================================
+
+Summary across architectures (validation set)
+------------------------------------------------------------------------------
+Hidden nodes    Arch          TrainAcc%   ValAcc%     MeanPrec   MeanRec    MeanF     
+16-8            2-16-8-3      100.00      100.00      1.0000     1.0000     1.0000    
+32-16           2-32-16-3     100.00      100.00      1.0000     1.0000     1.0000    
+64-16           2-64-16-3     100.00      100.00      1.0000     1.0000     1.0000      <-- best
+64-32           2-64-32-3     100.00      100.00      1.0000     1.0000     1.0000    

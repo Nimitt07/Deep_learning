@@ -1,0 +1,20 @@
+A4 SGD params=52933 init |w| sum=2432.576382
+epoch 0 loss 1.690181
+epoch 1 loss 0.122483 diff 1.57e+00 train_acc 0.9639 val_acc 0.9650 elapsed 13s
+epoch 2 loss 0.109009 diff 1.35e-02 train_acc 0.9670 val_acc 0.9668 elapsed 26s
+epoch 3 loss 0.083421 diff 2.56e-02 train_acc 0.9738 val_acc 0.9768 elapsed 30s
+epoch 4 loss 0.065489 diff 1.79e-02 train_acc 0.9810 val_acc 0.9763 elapsed 33s
+epoch 5 loss 0.053125 diff 1.24e-02 train_acc 0.9847 val_acc 0.9787 elapsed 37s
+epoch 6 loss 0.041723 diff 1.14e-02 train_acc 0.9891 val_acc 0.9805 elapsed 40s
+epoch 7 loss 0.037286 diff 4.44e-03 train_acc 0.9896 val_acc 0.9802 elapsed 44s
+epoch 8 loss 0.036414 diff 8.72e-04 train_acc 0.9890 val_acc 0.9805 elapsed 47s
+epoch 9 loss 0.028204 diff 8.21e-03 train_acc 0.9924 val_acc 0.9823 elapsed 51s
+epoch 10 loss 0.024245 diff 3.96e-03 train_acc 0.9942 val_acc 0.9805 elapsed 54s
+epoch 11 loss 0.030725 diff 6.48e-03 train_acc 0.9910 val_acc 0.9768 elapsed 58s
+epoch 12 loss 0.015064 diff 1.57e-02 train_acc 0.9968 val_acc 0.9842 elapsed 61s
+epoch 13 loss 0.013443 diff 1.62e-03 train_acc 0.9979 val_acc 0.9847 elapsed 64s
+epoch 14 loss 0.015516 diff 2.07e-03 train_acc 0.9971 val_acc 0.9831 elapsed 67s
+epoch 15 loss 0.010044 diff 5.47e-03 train_acc 0.9984 val_acc 0.9845 elapsed 71s
+epoch 16 loss 0.008088 diff 1.96e-03 train_acc 0.9989 val_acc 0.9855 elapsed 74s
+epoch 17 loss 0.008130 diff 4.24e-05 train_acc 0.9991 val_acc 0.9852 elapsed 77s
+DONE {"arch": "A4", "optimizer": "SGD", "layers": [784, 64, 32, 16, 5], "n_params": 52933, "batch_size": 1, "epochs": 17, "converged": true, "initial_loss": 1.69018057925676, "final_loss": 0.008130058539455127, "train_acc": 0.9991216512955643, "val_acc": 0.9852437417654809, "init_checksum": 2432.5763819988833, "seconds": 77.22657632827759}

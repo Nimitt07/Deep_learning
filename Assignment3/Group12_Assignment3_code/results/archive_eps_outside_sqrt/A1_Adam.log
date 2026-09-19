@@ -1,0 +1,24 @@
+A1 Adam params=110981 init |w| sum=5192.537677
+epoch 0 loss 1.757585
+epoch 1 loss 0.077605 diff 1.68e+00 train_acc 0.9760 val_acc 0.9739 elapsed 22s
+epoch 2 loss 0.068462 diff 9.14e-03 train_acc 0.9773 val_acc 0.9708 elapsed 37s
+epoch 3 loss 0.035378 diff 3.31e-02 train_acc 0.9898 val_acc 0.9874 elapsed 52s
+epoch 4 loss 0.020295 diff 1.51e-02 train_acc 0.9937 val_acc 0.9884 elapsed 71s
+epoch 5 loss 0.026407 diff 6.11e-03 train_acc 0.9924 val_acc 0.9858 elapsed 91s
+epoch 6 loss 0.011979 diff 1.44e-02 train_acc 0.9969 val_acc 0.9900 elapsed 116s
+epoch 7 loss 0.046986 diff 3.50e-02 train_acc 0.9886 val_acc 0.9813 elapsed 130s
+epoch 8 loss 0.028898 diff 1.81e-02 train_acc 0.9942 val_acc 0.9855 elapsed 143s
+epoch 9 loss 0.024222 diff 4.68e-03 train_acc 0.9953 val_acc 0.9850 elapsed 155s
+epoch 10 loss 0.015954 diff 8.27e-03 train_acc 0.9963 val_acc 0.9876 elapsed 167s
+epoch 11 loss 0.049780 diff 3.38e-02 train_acc 0.9888 val_acc 0.9747 elapsed 179s
+epoch 12 loss 0.017060 diff 3.27e-02 train_acc 0.9972 val_acc 0.9866 elapsed 190s
+epoch 13 loss 0.009070 diff 7.99e-03 train_acc 0.9983 val_acc 0.9876 elapsed 202s
+epoch 14 loss 0.006721 diff 2.35e-03 train_acc 0.9985 val_acc 0.9897 elapsed 214s
+epoch 15 loss 0.016411 diff 9.69e-03 train_acc 0.9950 val_acc 0.9855 elapsed 225s
+epoch 16 loss 0.014982 diff 1.43e-03 train_acc 0.9974 val_acc 0.9866 elapsed 236s
+epoch 17 loss 0.022161 diff 7.18e-03 train_acc 0.9961 val_acc 0.9852 elapsed 248s
+epoch 18 loss 0.014037 diff 8.12e-03 train_acc 0.9973 val_acc 0.9887 elapsed 259s
+epoch 19 loss 0.050666 diff 3.66e-02 train_acc 0.9917 val_acc 0.9826 elapsed 270s
+epoch 20 loss 0.030508 diff 2.02e-02 train_acc 0.9965 val_acc 0.9868 elapsed 281s
+epoch 38 loss 0.033998 diff 8.48e-05 train_acc 0.9969 val_acc 0.9852 elapsed 495s
+DONE {"arch": "A1", "optimizer": "Adam", "layers": [784, 128, 64, 32, 5], "n_params": 110981, "batch_size": 1, "epochs": 38, "converged": true, "initial_loss": 1.7575848440719821, "final_loss": 0.03399803420887815, "train_acc": 0.9969257795344751, "val_acc": 0.9852437417654809, "init_checksum": 5192.537677087637, "seconds": 494.5648899078369}

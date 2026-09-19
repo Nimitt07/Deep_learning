@@ -1,0 +1,5 @@
+hidden_nodes,architecture,train_accuracy,val_accuracy,val_mean_precision,val_mean_recall,val_mean_f_measure,epochs_run,parameters
+8,2-8-3,1.0000,1.0000,1.0000,1.0000,1.0000,150,51
+16,2-16-3,1.0000,1.0000,1.0000,1.0000,1.0000,150,99
+32,2-32-3,1.0000,1.0000,1.0000,1.0000,1.0000,150,195
+64,2-64-3,1.0000,1.0000,1.0000,1.0000,1.0000,150,387
